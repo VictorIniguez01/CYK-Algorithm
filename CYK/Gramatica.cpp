@@ -92,7 +92,8 @@ Gramatica::Gramatica(grammar &G){
 }
 
 
-bool Gramatica::CYK(grammar &G, string &w){ //bbab
+bool Gramatica::CYK(grammar &G, string &w){
+    
     table n;
 
     int longitud = w.length();
